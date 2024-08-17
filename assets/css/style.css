@@ -99,7 +99,8 @@
 }
 body{
 	font-family: Open Sans;
-	color: var(--black-color);
+	color: black; 
+	background-color: white!important;
 }
 /* header start */
 header{
@@ -245,7 +246,7 @@ header .menu ul li:hover .dropdown{
 	font-family: open sans;
 	position:absolute;
 	top: 4px;
-	left: 87%; 
+	left: 85%; 
 	margin-right: 55px;
 }
 .banner .banner-contain .form{
@@ -556,6 +557,11 @@ header .menu ul li:hover .dropdown{
 	margin: 0 0 0 20px;
 	font-size: var(--fs-18);
 }
+.package .client-review h3,.share h3{
+	color: #000;
+	line-height: 1;
+	padding: 0;
+}
 /* package end */
 
 /* playbtn start */
@@ -806,6 +812,7 @@ canvas {
   .why-us{
 	position: relative;
 	z-index: 1;
+	background-color: white;
   }
 
   .cursor {

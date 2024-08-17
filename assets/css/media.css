@@ -37,6 +37,12 @@
     }
     .w-sm-12{
         width:100%;
+    } 
+    .d-sm-none{
+        display: none;
+    }
+    .d-sm-flex{
+        display: flex;
     }
    
 }
@@ -115,6 +121,12 @@
     }
     .w-lg-12{
         width:100%;
+    }
+    .d-lg-none{
+        display: none;
+    }
+    .d-lg-flex{
+        display: flex;
     }
 }
 @media (min-width:1200px){
